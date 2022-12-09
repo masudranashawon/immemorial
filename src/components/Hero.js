@@ -32,7 +32,7 @@ const Hero = () => {
   return (
     <section className='hero-section wrapper' ref={heroRef}>
       <h1 className='ethereal'>
-        Etherial <span ref={shutter1}></span>
+        Ethereal <span ref={shutter1}></span>
       </h1>
       <h1 className='canvas'>
         Canvas <span ref={shutter2}></span>
@@ -42,24 +42,21 @@ const Hero = () => {
           ref={photoRefOne}
           className='photo one'
           style={{
-            backgroundImage:
-              'url("https://images.pexels.com/photos/10046283/pexels-photo-10046283.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1%22")',
+            backgroundImage: 'url("https://i.ibb.co/C7sSXVx/skater.jpg")',
           }}
         ></div>
         <div
           ref={photoRefTwo}
           className='photo two'
           style={{
-            backgroundImage:
-              'url("https://media.istockphoto.com/id/843884278/photo/90s-mixed-tape.jpg?s=612x612&w=0&k=20&c=iSlMVOsSwbTN_0AprK4OB5kYNXo4qBql4Wg_sb5VlV8=")',
+            backgroundImage: 'url("https://i.ibb.co/pnmbWpF/cassette.jpg")',
           }}
         ></div>
         <div
           ref={photoRefThree}
           className='photo three'
           style={{
-            backgroundImage:
-              'url("https://media.istockphoto.com/id/1273665646/photo/cyberpunk-computer-room.jpg?s=612x612&w=0&k=20&c=jt5NLoH7gsqUaG54PhkIyPNaQ92_Ib2yfp8FzExiX7E=")',
+            backgroundImage: 'url("https://i.ibb.co/qJghxC5/pc-build.jpg")',
           }}
         ></div>
         <div
@@ -67,15 +64,14 @@ const Hero = () => {
           className='photo four'
           style={{
             backgroundImage:
-              'url("https://i0.wp.com/www.society19.com/wp-content/uploads/2018/03/90s-memories.jpg?resize=740%2C600&ssl=1")',
+              'url("https://i.ibb.co/z595DhB/90s-memories.webp")',
           }}
         ></div>
         <div
           ref={photoRefFive}
           className='photo five'
           style={{
-            backgroundImage:
-              'url("https://metrosaga.com/wp-content/uploads/2019/03/4-89.jpg")',
+            backgroundImage: 'url("https://i.ibb.co/QfGTHZS/4-89.jpg")',
           }}
         ></div>
       </div>

@@ -45,6 +45,14 @@ section {
   padding: 10vw 0;
 }
 
+.section-title {
+  font-family: "Syncopate", sans-serif;
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  padding-bottom: 5vw;
+  text-transform: lowercase;
+}
+
 .min-h-100vh {
   min-height: 100vh;
 }
@@ -173,4 +181,41 @@ section {
 .five {
   grid-column: 2;
   grid-row: 5;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: 30% auto;
+  align-items: center;
+  gap: 10rem;
+}
+
+.feature-text {
+  letter-spacing: 5px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.features img {
+  width: 100%;
+}
+.feature-left,
+.feature-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+}
+
+.feature-shutter-left,
+.feature-shutter-right {
+  background-color: var(--color-lighter);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
 }
