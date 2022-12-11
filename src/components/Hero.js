@@ -1,4 +1,4 @@
-import { createRef, useRef } from "react";
+import { useRef } from "react";
 import {
   useGsapShutterUnveil,
   useGsapPhotoDropping,
