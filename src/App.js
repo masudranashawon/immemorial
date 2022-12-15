@@ -19,8 +19,8 @@ const App = () => {
         <Route path='/featured' element={<Featured />} />
         <Route path='/about' element={<About />} />
         <Route path='/gallery' element={<Gallery />} />
-        <Route path='/blog' element={<Blog needFullHight={true} />} />
-        <Route path='*' element={<NotFound needFullHight={true} />} />
+        <Route path='/blog' element={<Blog />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
       <Footer />
     </div>

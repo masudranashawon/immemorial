@@ -7,6 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 export const useGsapShutterUnveil = (item, delay = 0, trig) => {
   useEffect(() => {
     const el = item.current;
+
     gsap.fromTo(
       el,
       {
@@ -29,6 +30,7 @@ export const useGsapShutterUnveil = (item, delay = 0, trig) => {
 export const useGsapDownStagger = (arr, delay = 0) => {
   useEffect(() => {
     const el = arr.map((item) => item.current);
+
     gsap.fromTo(
       el,
       {
@@ -72,6 +74,7 @@ export const useGsapPhotoDropping = (arr) => {
 export const useGsapPhotoLevitate = (arr, trig) => {
   useEffect(() => {
     const el = arr.map((item) => item.current);
+
     gsap.fromTo(
       el,
       {
@@ -117,6 +120,7 @@ export const useGsapFeatureLeftShutterUnveil = (item, trig) => {
 export const useGsapFeatureRightShutterUnveil = (item, trig) => {
   useEffect(() => {
     const el = item.current;
+
     gsap.fromTo(
       el,
       {
@@ -140,6 +144,7 @@ export const useGsapFeatureRightShutterUnveil = (item, trig) => {
 export const useGsapGalleryImage = (item) => {
   useEffect(() => {
     const el = item.current;
+
     gsap.fromTo(
       el,
       {
@@ -165,6 +170,7 @@ export const useGsapGalleryImage = (item) => {
 export const useGsapGalleryTitle = (item, trig) => {
   useEffect(() => {
     const el = item.current;
+
     gsap.fromTo(
       el,
       {
@@ -188,6 +194,7 @@ export const useGsapGalleryTitle = (item, trig) => {
 export const useGsapGalleryCategory = (item, trig) => {
   useEffect(() => {
     const el = item.current;
+
     gsap.fromTo(
       el,
       {
@@ -211,6 +218,7 @@ export const useGsapGalleryCategory = (item, trig) => {
 export const useGsapFooterHeadline = (item, trig) => {
   useEffect(() => {
     const el = item.current;
+
     gsap.fromTo(
       el,
       {
@@ -250,6 +258,7 @@ export const useGsapNotFoundHeadline = (item, vw = "-100vw") => {
 export const useGsapNotFoundImage = (item) => {
   useEffect(() => {
     const el = item.current;
+
     gsap.fromTo(
       el,
       {
